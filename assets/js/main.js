@@ -52,13 +52,13 @@ function classificacao() {
 //Verifa se o dados do input é valido
 function verificarInput() {
 
-  if (verifiquePeso == true) {
+  if (verifiquePeso == true || pesoValor == 0 ) {
     resultado.style.display = 'block'
     resultado.style.background = '#af1f1f'
     resultado.innerHTML = `Peso inválido`
   }
 
-  else if (verifiqueAltura == true) {
+  else if (verifiqueAltura == true || alturaValor == 0) {
     resultado.style.display = 'block'
     resultado.style.background = '#af1f1f'
     resultado.innerHTML = `Altura inválida`

@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(4, 105, 136, 1) 0%, rgba(9, 121, 106, 1) 39%, rgba(32, 130, 180, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 45%;
+  height: 70%;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 3px 11px 1px rgba(0, 0, 0, 0.48);
+  box-shadow: 2px 3px 11px 1px rgba(0, 0, 0, 0.48);
+}
+
+.titulo {
+  margin-top: 0.5vw;
+  font-size: 4vw;
+  color: #0C7A75;
+}
+
+.input {
+  font-size: 22px;
+  text-align: center;
+  width: 80%;
+  height: 8%;
+  border: 1px solid #8d8d8d;
+  border-radius: 5px;
+}
+
+.ajuste {
+  margin-bottom: 8vw;
+}
+
+.label {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  position: absolute;
+  top: 65.3%;
+  width: 36vw;
+  height: 7vh;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #0C7A75;
+  border: none;
+  border-radius: 10px;
+}
+
+.resultado {
+  display: none;
+  font-size: 1.3vw;
+  position: absolute;
+  top: 75%;
+  color: aliceblue;
+  background-color: #1F82AF;
+  padding: 8px;
+  border-radius: 10px;
+
+}
